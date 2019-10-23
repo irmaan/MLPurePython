@@ -1,16 +1,3 @@
-"""
-Parameters passed to the functions :
-
-X - array containing all the features
-
-y - array containing the classification values
-
-theta - row vector contaning weights
-
-alpha - learning rate(default = 0.01)
-
-num_itr - number of iterations (default = 100)"""
-
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -110,9 +97,9 @@ n = 2 #number of features
 X = np.zeros(shape = [m,n])
 y = np.zeros(shape = [m,1])
 
-link of dataset used ->https://github.com/nikhilkumarsingh/Machine-Learning-Samples/blob/master/Logistic_Regression/dataset1.csv
+link of dataset used ->Kaggle dataset Australia Weather
 
-f = open("dataset1.csv", "r")
+f = open("weatherAUS.csv", "r")
 i = 0
 j = 0
 for line in f:

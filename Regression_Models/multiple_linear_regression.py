@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 
 
-dataset = pd.read_csv('100_student24.csv')
+dataset = pd.read_csv('Student_Performance.csv')
 
 dataset.insert(0, 'b0', np.ones(1000))
 
